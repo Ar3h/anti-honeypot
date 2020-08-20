@@ -19,11 +19,10 @@
 
 
 黑名单拦截：
-![](./img/黑名单请求.png)
+<img width="30%" height="30%" src="./img/黑名单请求.png"/>
+
 一般拦截：
-![](./img/可疑溯源请求.png)
-
-
+<img width="30%" height="30%" src="./img/可疑溯源请求.png"/>  
 
 # chrome插件使用
 1. 下载并解压源码  
