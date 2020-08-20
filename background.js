@@ -73,7 +73,7 @@ chrome.webRequest.onBeforeRequest.addListener(
                         if (inBlackList(targetHost)) {
                             // 黑名单拦截
                             count += 1;
-                            new Notification('拦截黑名单' + count + '次：' + targetHost);
+                            new Notification('拦截黑名单host' + count + '次：' + targetHost);
                         } else {
                             // 普通拦截
                             new Notification('拦截可疑溯源请求：' + targetHost);
